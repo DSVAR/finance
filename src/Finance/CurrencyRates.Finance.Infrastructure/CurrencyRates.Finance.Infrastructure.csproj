@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CurrencyRates.Common\CurrencyRates.Common.csproj" />
+    <ProjectReference Include="..\CurrencyRates.Finance.Application\CurrencyRates.Finance.Application.csproj" />
+  </ItemGroup>
+
+</Project>

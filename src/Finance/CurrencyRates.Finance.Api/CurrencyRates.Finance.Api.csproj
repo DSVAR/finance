@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CurrencyRates.Finance.Infrastructure\CurrencyRates.Finance.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

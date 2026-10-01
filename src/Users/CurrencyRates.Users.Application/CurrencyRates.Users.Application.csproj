@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\CurrencyRates.Common\CurrencyRates.Common.csproj" />
+    <ProjectReference Include="..\CurrencyRates.Users.Domain\CurrencyRates.Users.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
